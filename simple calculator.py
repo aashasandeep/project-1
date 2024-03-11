@@ -85,7 +85,7 @@ if __name__ == "__main__":
 
 	# create the text entry box for 
 	# showing the expression . 
-	expression_field = Entry(root, textvariable=equation,bd=9,bg="grey",font=("ariel,20"),borderwidth=14) 
+	expression_field = Entry(root,justify = RIGHT, textvariable=equation,bd=9,bg="grey",font=("ariel,20"),borderwidth=14) 
 
 	# grid method is used for placing 
 	# the widgets at respective positions 
